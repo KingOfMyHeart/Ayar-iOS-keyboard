@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-#define kFont [UIFont fontWithName:@"Ayar" size:16]
+#define kFont [UIFont fontWithName:@"Ayar_pub" size:16]
 #define kAltLabel @"<3"
 #define kReturnLabel @"return"
 #define kSpaceLabel @"space"

@@ -80,7 +80,7 @@ enum {
 			[b.titleLabel setFont:[UIFont boldSystemFontOfSize:14]];
         else
         if ([[b.titleLabel.text substringToIndex:1] isEqualToString:@"\u102A"])
-			[b.titleLabel setFont:[UIFont fontWithName:@"Ayar" size:9]];
+			[b.titleLabel setFont:[UIFont fontWithName:@"Ayar_pub" size:9]];
 		else
 			[b.titleLabel setFont:kFont];
 		i++;

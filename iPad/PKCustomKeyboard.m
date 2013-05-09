@@ -17,7 +17,7 @@
 @implementation PKCustomKeyboard
 @synthesize textView = _textView;
 
-#define kFont [UIFont fontWithName:@"Ayar" size:20]
+#define kFont [UIFont fontWithName:@"Ayar_pub" size:20]
 #define kAltLabel @"<3"
 #define kReturnLabel @"return"
 #define kChar @[ @"\u1039", @"\u1006", @"\u1010", @"\u1014", @"\u1019", @"\u1021", @"\u1015", @"\u1000", @"\u1004", @"\u101E", @"\u1005", @"\u1031", @"- \u103B", @"- \u102D", @"- \u103A", @"- \u102B", @"- \u1037", @"\u103C-", @"- \u102F", @"- \u1030", @"- \u1038", @"\u1012", @"ဿ", @"\u1016", @"\u1011", @"\u1001", @"\u101C", @"\u1018", @"\u100A", @"- \u102C", @"\u101A",@"\u104F",@" "]
@@ -89,7 +89,7 @@
 			[b.titleLabel setFont:[UIFont boldSystemFontOfSize:16]];
         else
             if ([[b.titleLabel.text substringToIndex:1] isEqualToString:@"\u102A"])
-                [b.titleLabel setFont:[UIFont fontWithName:@"Ayar" size:13]];
+                [b.titleLabel setFont:[UIFont fontWithName:@"Ayar_pub" size:13]];
             else
                 [b.titleLabel setFont:kFont];
 		i++;

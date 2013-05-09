@@ -28,7 +28,7 @@
         PKCustomKeyboard *customKeyboard = [[PKCustomKeyboard alloc] init];
         [customKeyboard setTextView:self.textView];
     }
-    [self.textView setFont:[UIFont fontWithName:@"Ayar" size:16]];
+    [self.textView setFont:[UIFont fontWithName:@"Ayar_pub" size:16]];
 }
 
 - (void)didReceiveMemoryWarning
